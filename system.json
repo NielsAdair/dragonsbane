@@ -1,0 +1,58 @@
+{
+    "id": "dragonbane",
+    "name": "dragonbane",
+    "title": "Dragonbane / Drakar och Demoner",
+    "description": "System for playing Dragonbane / Drakar och Demoner",
+    "version": "0.0.4",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "11",
+      "maximum": "11"
+    },
+    "authors": [
+      {
+        "name": "PatrikP",
+        "url": "www.patrikp.com",
+        "email": "patrik@patrikp.com"
+      }
+    ],
+    "esmodules": [
+      "dragonbane.js"
+    ],
+    "styles": [
+      "dragonbane.css"
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      },
+      {
+        "lang": "sv",
+        "name": "Svenska",
+        "path": "lang/sv.json"
+      }
+    ],
+    "packs": [
+        {
+            "name": "dragonbane-drakar-och-demoner-system",
+            "label": "Dragonbane / Drakar och Demoner",
+            "path": "packs/dragonbane-drakar-och-demoner-system.db",
+            "type": "Adventure",
+            "module": "Dragonbane",
+            "private": false,
+            "system": "dragonbane",
+            "banner": "./systems/dragonbane/art/dragonbane-banner.webp"
+        }
+    ],
+    "initiative": "1d20",
+    "gridDistance": 2,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "hitPoints",
+    "secondaryTokenAttribute": "willPoints",
+    "background": "systems/dragonbane/art/dragonbane-splash.webp",
+    "url": "https://github.com/pafvel/dragonbane",
+    "manifest": "https://github.com/pafvel/dragonbane/releases/download/v0.0.4/system.json",
+    "download": "https://github.com/pafvel/dragonbane/releases/download/v0.0.4/dragonbane.zip"
+  }
